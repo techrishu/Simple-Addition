@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function f1(){
+            var a,b,c;
+            a = parseInt(document.getElementById("t1").value);
+            b = parseInt(document.getElementById("t2").value);
+            c = a+b;
+            document.getElementById("t3").value = c;
+        }
+    </script>
+</head>
+<body>
+    <center>
+    <div style="padding: 50px; background: cyan; color:white; width:50%; align-items: center;">
+       <h3> Enter First Number :</h3>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="number" id="t1" style="height:40px; width:20%; font-family: cursive; font-size: 25px;"><br><br>
+        <h3>Enter Second Number :</h3>&nbsp;&nbsp;
+        <input type="number" id="t2" style="height:40px; width:20%; font-family: cursive;font-size: 25px;"><br><br>
+    <h3> Result :</h3>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="number" id="t3" readonly="true" style="height:30px; width:10%; background: gray; font-family: cursive;font-size: 20px;"><br><br>
+        <button onclick="f1()">Add</button>
+    </div>
+</center>
+<br>
+
+<div style="height:50px; width:100%; background:linear-gradient(yellow,pink);">
+<center>
+   <p style="padding: 10px;"> &copy; Copyright BY <b>Rishabh</b></p> 
+</center>
+</div>
+</body>
+</html>
